@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <fieldset>
+    <legend>Formulário Assis</legend>
+    <label>Projeto:</label><br>
+    <input id="projeto" type="text"/><br><br>
+    <label>Responsável:</label><br>
+    <input id="responsavel" type="text"/><br><br>
+    <label>Valor:</label><br>
+    <input id="valor" type="number" min="1" step="any"><br>
+  </fieldset>
+  <br>
+  <input type="submit" id="butao" value="Inserir projeto" onclick="inserir()" />
+  <br>
+  <br>
+  <table id="tabela" style="width: 100%">
+    <th>Projeto</th>
+    <th>Responsável</th>
+    <th>Valor</th>
+    <th>Editar</th>
+    <th>Apagar</th>
+  </table>
+  <script src="script.js"></script>
+</body>
